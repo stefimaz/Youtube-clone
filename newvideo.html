@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <div class="banner"><img src="https://www.reviewtrackers.com/wp-content/uploads/blog-hero_car-dealership-review-monitoring-banner-1400x420.jpg" alt="">
+    </div>
+    <meta charset="uft-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Video Upload</title>
+</head>
+
+<body>
+    <nav>
+    <div class="navigation">
+        <a href="index.html">Home</a>
+        <a href="./pages/collection1.html">Drag-Races</a>
+        <a href="./pages/collection2.html">Test-Drive</a>
+        <a href="./pages/collection3.html">Top-Speed</a>
+    </div>
+
+    </nav>
+    <header>
+        <h1>Upload your own video</h1>
+        <form action="/action_page.php" target="_top" method="post">
+
+            <label for="videotitle">Video Title</label><br>
+            <input id="fvideotitle" name="videotitle" type="text" placeholder="video name" required>
+            <br><br>
+
+            <label for="description">Description</label><br>
+            <textarea name="description" id="description"rows="5" cols="35">Write the description of your video content...
+            </textarea>
+            <br><br><br>
+
+            <label for="video">Video</label><br>
+            <input id="video" type="file"><br><br>
+
+            <label for="collection">Choose Collection</label><br>
+            <select id="collection" name="collection">
+                <option value="Collection 1">Drag Race</option>
+                <option value="Collection 2">Test Drive</option>
+                <option value="Collection 3">Top Speed</option>
+
+            </select>
+
+            <br><br>
+
+            <input name="gender" id="public" type="radio" value="public">
+            <label for="public">public</label>
+
+            <input name="gender" id="private" type="radio" value="private">
+            <label for="private">private</label><br><br>
+
+            <input class="submit" type="submit" value="submit">
+            <br><br><br>
+
+    </header>
+    <section>
+
+    </section>
+    <footer>
+
+    </footer>
+</body>
+
+</html>

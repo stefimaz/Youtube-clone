@@ -1,0 +1,158 @@
+ /* background image and  p text color */
+body{
+   background-image: url("https://png.pngtree.com/background/20230613/original/pngtree-racing-car-is-going-at-speeds-down-an-asphalt-racetrack-picture-image_3413956.jpg");
+   background-size: 100% 100%;
+   background-attachment: fixed;
+   color: aliceblue;
+}
+/* h1 font color and size */
+h1 {
+   color: aliceblue;
+   font-size: 50px;
+   text-align: center;
+   border: 8px double #1C6EA4;
+   text-shadow: 0px 0px 10px #1C6EA4;
+}
+/* top banner */
+.banner img{
+   height:150px;
+   width: 100%;
+}
+/* navigation banner with checkered flag */
+nav {
+   background-image: url("https://media.istockphoto.com/id/1253533380/vector/race-flag-finish-flag-vector-isolated-illustration-race-flag-icon-stock-vector.jpg?s=612x612&w=0&k=20&c=o2aw7_HsFerkVh_hr57AjuLalp9e_q88YEc5HCA3PGY=");
+   padding: 2%;
+   width: 100%;
+   border: 0;
+   font-size: large;
+   font-style: oblique;
+   text-align-last: center;
+   word-spacing: 20px;
+   position: sticky;
+   z-index: 1;
+   top:0;
+}
+/* color of navigation buttons */
+.navigation a {
+   background-color: #1C6EA4; 
+   padding: 15px;
+   border-radius: 5px;
+   width: 100px;
+   color: aliceblue;
+   margin: 50px auto;
+   text-align: center;
+}
+/* Change color on hover */
+.navigation a:hover {
+   background: #011a2b; 
+}
+/* border arround the video box*/
+div.featured {
+   margin: 10px;
+   border: 1px solid #1C6EA4;
+   float: left;
+   width: 400px;
+}
+/* Change color on hover */
+div.featured:hover {
+   border: 1px solid #011a2b;
+}
+/* iframe size */
+div.featured iframe {
+   width: 100%;
+   height: auto;
+}
+/* short video description */
+div.featured h3 {
+   padding: 2px;
+   text-align: center;
+   color: aliceblue;
+   max-height: 40px;
+}
+/* done to have hr and sopyright always at the bottom of page */
+.clearfix:after {
+   content: "";
+   display: table;
+   clear: both;
+}
+/* form design */
+form {
+   background-color: #c3dbeb;
+   opacity: 0.7;
+   padding: 50px;
+   text-align: left;
+   width: 450px;
+   position: absolute;
+   left: 30%;
+ }
+/* form design */
+ label {
+   color: #061c39;
+   margin-top: 10px;
+ }
+/* form design */
+ #fvideotitle, #description, #video, #collection{
+   width: 350px;
+   margin:10px;
+ }
+/* form design */
+ .submit{
+   background-color: rgb(240, 244, 60);
+   font-family: "Arial Black", Gadget, sans-serif;
+   text-transform: capitalize;
+   font-size: 20px;
+   color: #1C6EA4;
+   padding: 5px;
+   border-radius: 7px;
+   margin:10px;
+   width: 355px;
+ }
+ /* form design color change on submit hover */
+ .submit:hover {
+ background: #e09214; 
+ }
+/* video page box and alignment */
+ .video {
+   border:5px solid #061c39;
+   height: auto;
+   text-align: center;
+ }
+/* video description*/
+ p {
+   border:5px solid #061c39;
+   height: auto;
+   padding: 5%;
+ }
+
+ * {
+   box-sizing: border-box;
+ }
+/* Style the side navigation */
+.sidenav {
+   height: 100%;
+   width: 150px;
+   position: absolute;
+   z-index: 1;
+   top: 235px;
+   left: 0;
+   background-color: #061c39;
+   overflow-x: hidden;
+ }
+ /* Side navigation links */
+.sidenav a {
+   color: white;
+   padding: 16px;
+   text-decoration: none;
+   display: block;
+ }
+ /* Change color on hover */
+ .sidenav a:hover {
+   background-color: #1C6EA4;
+   color: black;
+ }
+
+ /* Style the content */
+.content {
+   margin-left: 140px;
+   padding-left: 10px;
+ }
